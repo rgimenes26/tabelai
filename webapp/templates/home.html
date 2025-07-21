@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+{% if current_user.is_authenticated %}
+    <h1> Welcome {{ current_user.username }} (: </h1>
+{% else %}
+    <h1> Bem vindo, faça Login para acessar os recursos. </h1>
+{% endif %}
+    <small>Dashboard SUDI</small>
+{% endblock content %}
