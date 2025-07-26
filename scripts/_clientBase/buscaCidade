@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					
+							<link href="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />				
+							<link href="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />				
+							<link href="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/css/tmpl.css" rel="stylesheet" type="text/css" />				
+							<link href="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/css/contraste.css" rel="stylesheet" type="text/css" />				
+							<link href="html/css/style.css" rel="stylesheet" type="text/css" />				
+							<link href="html/js/jquery/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />				
+							<link href="html/css/table_jui.css" rel="stylesheet" type="text/css" />				
+						
+		
+				<title>Justiça Aberta</title>
+	</head>
+	
+	<body class="layout">
+<div id="loading">
+	<div class="icon_ajax">	
+	</div>
+</div>
+<div class="layout">
+	<div class="topo">
+		<div class="marca">
+			<div class="marca-cnj">
+				<a href="#">
+					<img src="http://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/imagens/marca_cnj.png" alt="Marca CNJ"/>
+				</a>
+			</div>                    
+			<div class="marca-judiciario">
+				<a href="#">
+					<img src="http://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/imagens/marca_jus.png" alt="Marca JudiciÃ¡rio" />
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="indetificacao_sistema">
+		<div class="id_sis_interna">					
+			<div class="acessibilidade">
+	    		<a accesskey="3" href="#" class="toggle-diminuir">Diminuir letra A- </a>|
+	    		<a accesskey="3" href="#" class="toggle-aumentar">Aumentar letra A+ </a>|
+	    		<a accesskey="3" href="#" class="toggle-resetar">Tamanho normal da letra A </a>|
+	    		<a accesskey="3" href="#" class="toggle-contraste">Alto Contraste</a>
+	    	</div>
+	    	<div class="nome_sitema">
+	    			        		Justiça Aberta	        		        </div>
+	    </div>
+	</div>
+	<div class="clr"><!--clear float --></div>
+	<div class="nav_menu">
+		<div class="nav_menu_int">
+								</div>
+		<div class="clr"><!--clear float --></div>
+	</div>
+	<div class="corpo">	<div class="menu navbar">
+	<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>          
+	<div class="nav-collapse collapse">
+		<div class="menu_int">
+	        <ul class="nav nav-pills">
+						
+													<li >
+						<a href="#"  target="" onclick="wiOpen('?d=index&a=index&f=Principal');" onkeydown="wiOpen('?d=index&a=index&f=Principal');">
+							Principal						</a>
+					</li>	
+					
+				
+						
+													
+					<li class="dropdown  active" >					
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+	              			Extrajudicial	              			<b class="caret"></b>
+	            		</a>
+	            		<ul class="dropdown-menu">
+																							<li >
+									<a href="#"  onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formPrincipalExtrajudicial');" onkeydown="wiOpen('?d=consulta_extra&a=consulta_extra&f=formPrincipalExtrajudicial');">
+										Serventias Extrajudiciais									</a>
+								</li>							
+																							<li >
+									<a href="#"  onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formPrincipalProvimento13');" onkeydown="wiOpen('?d=consulta_extra&a=consulta_extra&f=formPrincipalProvimento13');">
+										Hospitais e Registradores Interligados									</a>
+								</li>							
+																							<li >
+									<a href="#"  onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formPrincipalArrecadacao');" onkeydown="wiOpen('?d=consulta_extra&a=consulta_extra&f=formPrincipalArrecadacao');">
+										Relatório - Arrecadação									</a>
+								</li>							
+																							<li >
+									<a href="#"  onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formEstatisticaGeral');" onkeydown="wiOpen('?d=consulta_extra&a=consulta_extra&f=formEstatisticaGeral');">
+										Relatório - Cartórios por especialidades									</a>
+								</li>							
+																							<li >
+									<a href="#"  onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formArrecadacaoCartorios');" onkeydown="wiOpen('?d=consulta_extra&a=consulta_extra&f=formArrecadacaoCartorios');">
+										Relatório - Ranking da arrecadação por UF									</a>
+								</li>							
+																							<li >
+									<a href="#"  onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formArrecadacaoAmostragem');" onkeydown="wiOpen('?d=consulta_extra&a=consulta_extra&f=formArrecadacaoAmostragem');">
+										Relatório - Arrecadação por Amostragem									</a>
+								</li>							
+													</ul>	
+					</li>
+					
+				
+			        
+	        </ul>  
+	    </div>
+	</div>
+</div>	    
+		<fieldset>
+	<legend>Serventias Extrajudiciais de <b>AMERICANA</b> - <b>SP</b> .</legend>
+	<form class="form-horizontal" id="selecionarAtribuicao" name="selecionarAtribuicao" action="?" method="POST" enctype="multipart/form-data">
+	<input type="hidden" name="d" id="d" value="consulta_extra" />
+	<input type="hidden" name="a" id="a" value="consulta_extra" />
+	<input type="hidden" name="f" id="f" value="formPesquisaExtrajudicial" />
+	<input type="hidden" name="token" id="token" value="" />
+	<input type="hidden" name="cidade_serventia" id="cidade_serventia" value="195" />
+	<input type="hidden" name="atribuicao" id="atribuicao" value="" />
+		<div class="control-group">
+		  <label class="control-label" for="NUM_MATRICULA">Filtrar por atribuição</label>
+		  <div class="controls">
+		    <select class="span5" id="atribuicao" name="atribuicao" required>
+				<option value="">Selecione a atribuição</option>
+									 
+					    <option value="1">Notas</option> 
+					   
+									 
+					    <option value="3">Protesto de Títulos</option> 
+					   
+									 
+					    <option value="11">Registro Civil das Pessoas Jurídicas</option> 
+					   
+									 
+					    <option value="6">Registro Civil das Pessoas Naturais e de Interdições e Tutelas</option> 
+					   
+									 
+					    <option value="2">Registro de Contratos Marítimos</option> 
+					   
+									 
+					    <option value="7">Registro de Distribuição</option> 
+					   
+									 
+					    <option value="4">Registro de Imóveis</option> 
+					   
+									 
+					    <option value="9">Registro de Imóveis e Títulos e Documentos</option> 
+					   
+									 
+					    <option value="8">Registro de Interdições e Tutelas</option> 
+					   
+									 
+					    <option value="10">Registro de Títulos e Documentos</option> 
+					   
+									 
+					    <option value="5">Registro de Títulos e Documentos e Civis das Pessoas Jurídicas</option> 
+					   
+							</select>
+		  </div>
+		</div>
+		<div align="center">
+			<button class="btn btn-primary" type="submit">Pesquisar</button>
+		</div>
+	</form>
+	<table class="display" id="display">
+		<thead> 
+			<tr>
+				<th width="10%"><center><b>CNS</b></center></th>
+				<th><center><b>Denominação e localização</b></center></th>
+				<th><center><b>Situação jurídica do responsável</b></center></th>
+				<th><center><b>Dados</b></center></th>
+			</tr>
+		</thead>
+		<tbody>
+						<tr id="8859" class="processo">
+				<td align="center">
+      				<strong>
+      					<font color="red">11.283-9</font></br>
+	      				
+							<font size='1'><b>&#40;Ativo&#41;</b></font>
+						 
+					</strong> 
+				</td>
+				<td>
+  					<table>
+	  					<tr>
+	  						<td align="right" width="110px" ><b>Denominação :</b></td>
+	  						<td align="left">2º TABELIÃO DE NOTAS E DE PROTESTO DE LETRAS E TÍTULOS DE AMERICANA</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right"><b>Responsável :</b></td>
+	  						<td align="left">FERNANDO ESCRIVANI STEFANIU</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right" width="100px" >Atribuições :</td>
+	  						<td align="left"><b>Notas -> Protesto de Títulos<b></td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Endereço :</td>
+	  						<td align="left">RUA SETE DE SETEMBRO, 649 &nbsp;&nbsp; Bairro :CENTRO</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Telefone :</td>
+	  						<td align="left">(19)3475-3370 &nbsp;&nbsp; E-mail : atendimento@2americana.com.br</td>
+	  					</tr>
+  					</table>
+				</td>
+				<td align="center" valign='middle'>
+					
+						<b>PROVIDO</b>
+					 
+				</td>
+				<td align="center">
+					<a href="#" onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formDadosServentiaExtra&SEQ_DADOS_SERVENTIA=8859');">
+						<img src="html/img/produtividade.png" alt="Informações" title="Informações" style="width: 20px;height: 20px;">
+					</a>
+				</td>
+			</tr>
+						<tr id="8946" class="processo">
+				<td align="center">
+      				<strong>
+      					<font color="red">12.141-8</font></br>
+	      				
+							<font size='1'><b>&#40;Ativo&#41;</b></font>
+						 
+					</strong> 
+				</td>
+				<td>
+  					<table>
+	  					<tr>
+	  						<td align="right" width="110px" ><b>Denominação :</b></td>
+	  						<td align="left">Oficial do Registro Civil das Pessoas Naturais e de Interdições e Tutelas da Sede da Comarca de Americana, Estado de São Paulo</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right"><b>Responsável :</b></td>
+	  						<td align="left">FÁTIMA CRISTINA RANALDO CALDEIRA</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right" width="100px" >Atribuições :</td>
+	  						<td align="left"><b>Registro Civil das Pessoas Naturais e de Interdições e Tutelas<b></td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Endereço :</td>
+	  						<td align="left">Rua Marechal Deodoro, 126 &nbsp;&nbsp; Bairro :centro</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Telefone :</td>
+	  						<td align="left">(19)3406-2425 &nbsp;&nbsp; E-mail : recivil@cartorioamericana.com.br</td>
+	  					</tr>
+  					</table>
+				</td>
+				<td align="center" valign='middle'>
+					
+						<b>PROVIDO</b>
+					 
+				</td>
+				<td align="center">
+					<a href="#" onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formDadosServentiaExtra&SEQ_DADOS_SERVENTIA=8946');">
+						<img src="html/img/produtividade.png" alt="Informações" title="Informações" style="width: 20px;height: 20px;">
+					</a>
+				</td>
+			</tr>
+						<tr id="9107" class="processo">
+				<td align="center">
+      				<strong>
+      					<font color="red">12.242-4</font></br>
+	      				
+							<font size='1'><b>&#40;Ativo&#41;</b></font>
+						 
+					</strong> 
+				</td>
+				<td>
+  					<table>
+	  					<tr>
+	  						<td align="right" width="110px" ><b>Denominação :</b></td>
+	  						<td align="left">1º TABELIÃO DE NOTAS E DE PROTESTO DE LETRAS E TÍTULOS DA COMARCA DE AMERICANA</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right"><b>Responsável :</b></td>
+	  						<td align="left">ANDRÉ LUIZ PANCIONI</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right" width="100px" >Atribuições :</td>
+	  						<td align="left"><b>Notas -> Protesto de Títulos<b></td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Endereço :</td>
+	  						<td align="left">Rua Herman Müller Carioba, 150 &nbsp;&nbsp; Bairro :Chácara Girassol (Centro)</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Telefone :</td>
+	  						<td align="left">(19)3408-8790 &nbsp;&nbsp; E-mail : tabeliao@1cartorioamericana.com.br</td>
+	  					</tr>
+  					</table>
+				</td>
+				<td align="center" valign='middle'>
+					
+						<b>PROVIDO</b>
+					 
+				</td>
+				<td align="center">
+					<a href="#" onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formDadosServentiaExtra&SEQ_DADOS_SERVENTIA=9107');">
+						<img src="html/img/produtividade.png" alt="Informações" title="Informações" style="width: 20px;height: 20px;">
+					</a>
+				</td>
+			</tr>
+						<tr id="9302" class="processo">
+				<td align="center">
+      				<strong>
+      					<font color="red">11.990-9</font></br>
+	      				
+							<font size='1'><b>&#40;Ativo&#41;</b></font>
+						 
+					</strong> 
+				</td>
+				<td>
+  					<table>
+	  					<tr>
+	  						<td align="right" width="110px" ><b>Denominação :</b></td>
+	  						<td align="left">Oficial de Registro de Imóveis, Títulos e Documentos e Civil das Pessoas Jurídicas da Comarca de Americana</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right"><b>Responsável :</b></td>
+	  						<td align="left">CARLOS ROBERTO BURITI</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right" width="100px" >Atribuições :</td>
+	  						<td align="left"><b>Registro de Imóveis -> Registro de Títulos e Documentos e Civis das Pessoas Jurídicas<b></td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Endereço :</td>
+	  						<td align="left">Rua Capitão Sebastião Antas, 93 &nbsp;&nbsp; Bairro :Vila Rehder</td>
+	  					</tr>
+	  					<tr>
+	  						<td align="right">Telefone :</td>
+	  						<td align="left">(19)3475-4480 &nbsp;&nbsp; E-mail : riamericana@riamericana.com.br</td>
+	  					</tr>
+  					</table>
+				</td>
+				<td align="center" valign='middle'>
+					
+						<b>PROVIDO</b>
+					 
+				</td>
+				<td align="center">
+					<a href="#" onclick="wiOpen('?d=consulta_extra&a=consulta_extra&f=formDadosServentiaExtra&SEQ_DADOS_SERVENTIA=9302');">
+						<img src="html/img/produtividade.png" alt="Informações" title="Informações" style="width: 20px;height: 20px;">
+					</a>
+				</td>
+			</tr>
+					</tbody>								
+	</table>
+</fieldset>
+<br /> 
+	
+<script type="text/javascript" charset="iso-8859-1" language="javascript" src="html/js/jquery/jquery.js"></script>
+
+<script type="text/javascript">
+	function desabilitar(){
+		return false
+	}
+	document.oncontextmenu=desabilitar
+
+	setTimeout("document.getElementById('div_msg').style.display='none'",5000);
+
+	if(window.ordenacao===undefined){
+		var ordenacao = 'asc';
+	}
+	
+	if(window.coluna===undefined){
+		var coluna = '0';
+	}
+	
+	$(document).ready(function() {
+	  	$(".display tr").mouseover(function(){
+			$(this).addClass("over")
+		});
+		$(".display tr").mouseout(function(){
+			$(this).removeClass("over")
+		});
+		$('.display').dataTable( {
+			"bJQueryUI": true,
+			"sPaginationType": "full_numbers",
+			"aaSorting": [[coluna,ordenacao]],
+			"oLanguage": {
+				"sUrl": "html/js/jquery/pt_BR"
+			}
+		} );
+
+		$("#relatorio tr").mouseover(function(){
+			$(this).addClass("over")
+		});
+		$("#relatorio tr").mouseout(function(){
+			$(this).removeClass("over")
+		});
+
+		$('#relatorio').dataTable( {
+			"bJQueryUI": true,
+			"bPaginate": false,
+			"sPaginationType": "full_numbers",
+			"sDom": '<"H">tC<"F"p>',
+			"oLanguage": {
+				"sUrl": "html/js/jquery/pt_BR"
+			}
+		});
+		
+		$(function() {
+			$("#accordion").accordion({
+				autoHeight: false
+			});
+		});
+	});
+</script>		</div>
+	</div>
+<div class="rodape">
+	CNJ - Conselho Nacional de Justiça</div>
+			<script src="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/bootstrap/js/jquery-1.7.2.min.js"></script>							
+			<script src="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/bootstrap/js/bootstrap.min.js"></script>							
+			<script src="https://www.cnj.jus.br/libraryCNJ/libs/bootstrap/modelo1/js/acessibilidade.js"></script>							
+			<script src="html/js/page.js"></script>							
+			<script src="html/js/mascaraGenerica.js"></script>							
+			<script src="html/js/jquery/jquery.dataTables.js"></script>							
+		
+		
+
+</body>
+</html>
