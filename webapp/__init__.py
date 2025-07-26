@@ -29,14 +29,5 @@ login_manager.login_message_category = 'info'
 
 from webapp import routes
 
-# from .dashboard.dashboard1 import init_dash_app
-# dash = init_dash_app(app)
-
-# from .lamina.app import init_dash_app_2
-# dash2 = init_dash_app_2(dash)
-
-# from .dashCredito.app import init_dash_app
-# dash3 = init_dash_app(dash2)
-
 from .notaria.app import init_dash_app
 dash4 = init_dash_app(app)

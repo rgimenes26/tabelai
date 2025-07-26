@@ -4,7 +4,7 @@ from dash import (Dash,
                 html, dcc,
                 Input, Output, State
                 )
-import dash_bootstrap_components as dcb
+import dash_bootstrap_components as dbc
 from flask_login import login_required
 from datetime import date, datetime
 
