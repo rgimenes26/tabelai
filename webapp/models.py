@@ -17,7 +17,6 @@ class User(db.Model, UserMixin):
     #session = db.Column(db.String(100), nullable=True)
     #is_active = db.Column(db.Boolean, default=True, nullable=False) or is_paid ?
     #subscription_level = db.Column(db.Integer, nullable=True)
-    # image_file = db.Column(db.String(20), nullable=False, default='default.jpg')
     password = db.Column(db.String(60), nullable=False)
 
     def __repr__(self):

@@ -30,4 +30,4 @@ login_manager.login_message_category = 'info'
 from webapp import routes
 
 from .notaria.app import init_dash_app
-dash4 = init_dash_app(app)
+tabelai = init_dash_app(app)

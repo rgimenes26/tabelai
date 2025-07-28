@@ -1,4 +1,4 @@
-body {
+/* body {
   background: #ffffff;
   color: #333333;
   margin-top: 5rem;
@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navbar{
-  /* background-color: #567426fd; */
   background-color:  rgb(24, 55, 80);
   font-size: large;
 }
@@ -69,7 +68,6 @@ padding: 0;
 }
 .Nbox-content {
   padding: 10px 0 10px 0;
-  /* background-color: #F5F5F5; */
   margin: auto;
 }
 .Nbox-title {
@@ -106,9 +104,7 @@ padding: 0;
 .dash-table-container{
   background-color: #f2f0ea;
 }
-/* .dash-spreadsheet.dash-freeze-top, .dash-spreadsheet.dash-virtualized {
-  max-height: 800px;
-} */
+
 
 .Select-menu-outer {
   display : block !important;
@@ -132,10 +128,7 @@ td {
   padding: 2px 0px;
 }
 
-/* tr:nth-child(even) {
-  background-color: #d7dbe1;
-  -webkit-print-color-adjust: exact;
-} */
+
 .linhaFundo{
   background-color: #d7dbe1;
   -webkit-print-color-adjust: exact; 
@@ -144,13 +137,7 @@ td {
   background-color: white;
 }
 
-/* table.reversed tr:nth-child(odd) {
-  background-color: #d7dbe1;
-  -webkit-print-color-adjust: exact;
-}
-table.reversed tr:nth-child(even) {
-  background-color: white;
-} */
+
 
 table {
   font-size: 1.1rem;
@@ -162,11 +149,7 @@ table.tiny-header tr:first-child {
   font-size: 1.2rem;
 }
 
-/* .columns{ margin-left: 0 !important; } */
 
-/* .row > .columns:not(:first-child){
-padding-left: 20px;
-} */
 
 td,
 th {
@@ -188,4 +171,24 @@ th {
 }
 .bold{
   font-weight: 900;
+} */
+
+
+/* Base styles added to element and then get overwritten with responsive values */
+.buttonChat {
+  height: 50px;
 }
+
+/* 48em is theme.breakpoints.sm by default */
+@media (min-width: 48em) {
+  .buttonChat {
+    height: 100%;
+  }
+}
+
+/* 75em is theme.breakpoints.lg by default
+@media (min-width: 75em) {
+  .inputConfig {
+    width: 60%;
+  }
+} */
